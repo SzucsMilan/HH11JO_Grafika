@@ -1,4 +1,2 @@
-Féléves feladatomként az alábbiakat szeretném megvalósítani:
-
-Egy rendőrautó, melyet billentyűzet segítségével lehet irányítani a mapon. Lehet vele előre, hátra menni illetve irányt változtatni.
-Mozgás esetén a kereke is forogni fog. A fényhíd világítását is szeretém megcsinálni. Az út mentén fa és épületek lesznek elhelyezve.
+Szűcs Milán - HH11JO Féléves beadandó 
+Féléves beadandómnak egy olyan környezetet szeretnék létrehozni, amelyben egy járművet lehet majd mozgatni egy adott pályán előre illetve hátrafelé. W gomb megnyomására a jármű elindul előre, míg S billentyű megnyomására hátrafele. A jármű kerekei a mozgási irányt követve fognak forogni is. A pályára tervezek rakni fényforrást(lámpát), melyet egy adott billentyű nyomásával lehetlesz le-fel kapcsolni. A jármű környezetébe tervezek rakni fákat illetve egy épületet.
