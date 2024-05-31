@@ -28,7 +28,7 @@ typedef struct Scene
 	int fan_rotation;
     Material material;
 	
-	GLuint fan_texture_id;
+
 	GLuint grass_texture_id;
 	GLuint fronttree_texture_id;
 	GLuint tree_texture_id;

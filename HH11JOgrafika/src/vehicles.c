@@ -4,10 +4,6 @@ void init_vehicles(Vehicles *vehicles)
 {
     load_model(&(vehicles->model), "assets/models/taxi.obj");
     vehicles->vehicles_texture_id = load_texture("assets/textures/taxi.jpg");
-	
-	
-	
-
 
     vehicles->position.x = 3.0;
     vehicles->position.y = 0.3;
@@ -21,7 +17,6 @@ void init_vehicles(Vehicles *vehicles)
     vehicles->rotation.y = 0.0;
     vehicles->rotation.z = 0.0;
     vehicles->angle = 0.0;
-	
   
 }
 
@@ -36,21 +31,21 @@ void set_vehicles_position(Vehicles *vehicles, vec3 newPosition)
 
 void set_vehicles_rotation_y (Vehicles *vehicles, double rotation)
 {
-vehicles->rotation.y = rotation;
+    vehicles->rotation.y = rotation;
 }
 
 void set_vehicles_rotation_x (Vehicles *vehicles, double rotation)
 {
-vehicles->rotation.x = rotation;
+    vehicles->rotation.x = rotation;
 }
 void set_vehicles_rotation_z (Vehicles *vehicles, double rotation)
 {
-vehicles->rotation.z = rotation;
+    vehicles->rotation.z = rotation;
 }
 
 void set_vehicles_angle (Vehicles *vehicles, double angle)
 {
-vehicles->angle = angle;
+    vehicles->angle = angle;
 }
 
 

@@ -345,25 +345,25 @@ void update_app(App* app)
 	if(app->camera.position.x > app->scene.vehicles.position.x-2&&app->scene.vehicles.position.x>app->camera.position.x&&-0.1<=app->camera.position.y&&app->camera.position.y<=0.7)
     {
         set_camera_speed(&(app->camera), 0);
-		app->camera.position.x-=0.127;
+		app->camera.position.x-=2.0;
     }
 	
 		if(app->camera.position.x < app->scene.vehicles.position.x+2&&app->scene.vehicles.position.x<app->camera.position.x&&-0.1<=app->camera.position.y&&app->camera.position.y<=0.7)
     {
         set_camera_speed(&(app->camera), 0);
-		app->camera.position.x+=0.127;
+		app->camera.position.x+=2.0;
     }
 	
 		if(app->camera.position.x >app->scene.vehicles.position.x-0.8&&app->camera.position.x<app->scene.vehicles.position.x+0.6&&app->camera.position.y+0.7>=app->scene.vehicles.position.y&&app->scene.vehicles.position.y+0.3>=app->camera.position.y)
     {
         set_camera_speed(&(app->camera), 0);
-		app->camera.position.y-=0.127;
+		app->camera.position.y-=2.0;
     }
 	
 		if(app->camera.position.x >app->scene.vehicles.position.x-0.8&&app->camera.position.x<app->scene.vehicles.position.x+0.6&&app->camera.position.y<=app->scene.vehicles.position.y+0.7&&app->scene.vehicles.position.y+0.3<=app->camera.position.y)
     {
         set_camera_speed(&(app->camera), 0);
-		app->camera.position.y+=0.127;
+		app->camera.position.y+=2.0;
     }
 	
 		if(app->camera.position.x < -11)
